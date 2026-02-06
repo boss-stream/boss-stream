@@ -1,0 +1,765 @@
+.kangndomain {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background: #1e7bba;
+   margin: 0 auto;
+   font-size: 13px;
+   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-weight: normal;
+   font-style: normal;
+   position: relative;
+   width: 100%;
+   min-height: 100%;
+   left: 0;
+   top: 0;
+   cursor: default;
+   overflow: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+ul,
+ol,
+li {
+   margin: 0;
+   padding: 0;
+}
+
+/* Reset buttons border. It's important for input and button tags.
+ * border-collapse should be separate for shadow in IE.
+ */
+.kangndobutton {
+   border-collapse: separate;
+   -webkit-background-origin: border !important;
+   -moz-background-origin: border !important;
+   background-origin: border-box !important;
+   background: #4e96f5;
+   background: linear-gradient(top, #7abaf8 0, #7abaf8 100%) no-repeat;
+   background: -webkit-linear-gradient(top, #7abaf8 0, #7abaf8 100%) no-repeat;
+   background: -moz-linear-gradient(top, #7abaf8 0, #7abaf8 100%) no-repeat;
+   background: -o-linear-gradient(top, #7abaf8 0, #7abaf8 100%) no-repeat;
+   background: -ms-linear-gradient(top, #7abaf8 0, #7abaf8 100%) no-repeat;
+   background: linear-gradient(top, #7abaf8 0, #7abaf8 100%) no-repeat;
+   -svg-background: linear-gradient(top, #7abaf8 0, #7abaf8 100%) no-repeat;
+   -webkit-border-radius: 5px;
+   -moz-border-radius: 5px;
+   border-radius: 5px;
+   border: 0px solid #8A99A8;
+   padding: 0 10px;
+   margin: 0 auto;
+   height: 38px;
+   width: 235px;
+}
+
+.kangndopostcontent p {
+   margin: 8px 0;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+}
+
+.kangndopostcontent h1,
+.kangndopostcontent h1 a,
+.kangndopostcontent h1 a:link,
+.kangndopostcontent h1 a:visited,
+.kangndopostcontent h1 a:hover,
+.kangndopostcontent h2,
+.kangndopostcontent h2 a,
+.kangndopostcontent h2 a:link,
+.kangndopostcontent h2 a:visited,
+.kangndopostcontent h2 a:hover,
+.kangndopostcontent h3,
+.kangndopostcontent h3 a,
+.kangndopostcontent h3 a:link,
+.kangndopostcontent h3 a:visited,
+.kangndopostcontent h3 a:hover,
+.kangndopostcontent h4,
+.kangndopostcontent h4 a,
+.kangndopostcontent h4 a:link,
+.kangndopostcontent h4 a:visited,
+.kangndopostcontent h4 a:hover,
+.kangndopostcontent h5,
+.kangndopostcontent h5 a,
+.kangndopostcontent h5 a:link,
+.kangndopostcontent h5 a:visited,
+.kangndopostcontent h5 a:hover,
+.kangndopostcontent h6,
+.kangndopostcontent h6 a,
+.kangndopostcontent h6 a:link,
+.kangndopostcontent h6 a:visited,
+.kangndopostcontent h6 a:hover,
+.kangndoblockheader .t,
+.kangndoblockheader .t a,
+.kangndoblockheader .t a:link,
+.kangndoblockheader .t a:visited,
+.kangndoblockheader .t a:hover,
+.kangndovmenublockheader .t,
+.kangndovmenublockheader .t a,
+.kangndovmenublockheader .t a:link,
+.kangndovmenublockheader .t a:visited,
+.kangndovmenublockheader .t a:hover,
+.kangndoslogan,
+.kangndoslogan a,
+.kangndoslogan a:link,
+.kangndoslogan a:visited,
+.kangndoslogan a:hover,
+.kangndopostheader,
+.kangndopostheader a,
+.kangndopostheader a:link,
+.kangndopostheader a:visited,
+.kangndopostheader a:hover {
+   font-size: 22px;
+   font-weight: normal;
+   font-style: normal;
+   line-height: 120%;
+}
+
+.kangndopostcontent a,
+.kangndopostcontent a:link {
+   text-decoration: none;
+}
+
+.kangndopostcontent a:visited,
+.kangndopostcontent a.visited {
+   text-decoration: none;
+   color: #2632e1;
+}
+
+.kangndopostcontent a:hover,
+.kangndopostcontent a.hover {
+   text-decoration: none;
+   color: #2632e1;
+}
+
+.kangndopostcontent h1 {
+   color: #98A6B3;
+   margin: 10px 0 0;
+   font-size: 26px;
+}
+
+.kangndopostcontent h1 a,
+.kangndopostcontent h1 a:link,
+.kangndopostcontent h1 a:hover,
+.kangndopostcontent h1 a:visited {
+   font-size: 26px;
+}
+
+.kangndopostcontent h2 {
+   color: #ADB8C2;
+   margin: 10px 0 0;
+   font-size: 22px;
+}
+
+.kangndopostcontent h2 a,
+.kangndopostcontent h2 a:link,
+.kangndopostcontent h2 a:hover,
+.kangndopostcontent h2 a:visited {
+   font-size: 22px;
+}
+
+.kangndopostcontent h3 {
+   color: #FCA173;
+   margin: 10px 0 0;
+   font-size: 20px;
+}
+
+.kangndopostcontent h3 a,
+.kangndopostcontent h3 a:link,
+.kangndopostcontent h3 a:hover,
+.kangndopostcontent h3 a:visited {
+   font-size: 20px;
+}
+
+.kangndopostcontent h4 {
+   color: #EFF2F5;
+   margin: 10px 0 0;
+   font-size: 18px;
+   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+}
+
+.kangndoblockcontent h4 {
+   margin: 10px 0 0;
+   font-size: 18px;
+   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+}
+
+.kangndopostcontent h4 a,
+.kangndopostcontent h4 a:link,
+.kangndopostcontent h4 a:hover,
+.kangndopostcontent h4 a:visited {
+   font-size: 18px;
+}
+
+.kangndopostcontent h5 {
+   color: #EFF2F5;
+   margin: 10px 0 0;
+   font-size: 15px;
+}
+
+.kangndopostcontent h5 a,
+.kangndopostcontent h5 a:link,
+.kangndopostcontent h5 a:hover,
+.kangndopostcontent h5 a:visited {
+   font-size: 15px;
+}
+
+.kangndopostcontent h6 {
+   color: #BCC9D7;
+   margin: 10px 0 0;
+   font-size: 13px;
+}
+
+.kangndopostcontent h6 a,
+.kangndopostcontent h6 a:link,
+.kangndopostcontent h6 a:hover,
+.kangndopostcontent h6 a:visited {
+   font-size: 13px;
+}
+
+header,
+footer,
+article,
+nav,
+#kangndohmenu-bg,
+.kangndosheet,
+.kangndohmenu a,
+.kangndovmenu a,
+.kangndocheckbox:before,
+.kangndoradiobutton:before {
+   -webkit-background-origin: border !important;
+   -moz-background-origin: border !important;
+   background-origin: border-box !important;
+}
+
+header,
+footer,
+article,
+nav,
+#kangndohmenu-bg,
+.kangndosheet,
+.kangndocheckbox:before,
+.kangndoradiobutton:before {
+   display: block;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+}
+
+ul {
+   list-style-type: none;
+}
+
+ol {
+   list-style-position: inside;
+}
+
+html,
+body {
+   height: 100%;
+}
+
+body {
+   padding: 0;
+   margin: 0;
+   min-width: 361px;
+   color: #CFD8E2;
+}
+
+.clearfix:before,
+.clearfix:after {
+   content: "";
+   display: table;
+}
+
+.clearfix:after {
+   clear: both;
+}
+
+.cleared {
+   font: 0/0 serif;
+   clear: both;
+}
+
+form {
+   padding: 0 !important;
+   margin: 0 !important;
+}
+
+table.position {
+   position: relative;
+   width: 100%;
+   table-layout: fixed;
+}
+
+li h1,
+.kangndopostcontent li h1 {
+   margin: 1px;
+}
+
+li h2,
+.kangndopostcontent li h2 {
+   margin: 1px;
+}
+
+li h3,
+.kangndopostcontent li h3 {
+   margin: 1px;
+}
+
+li h4,
+.kangndopostcontent li h4,
+.kangndoblockcontent li h4 {
+   margin: 1px;
+}
+
+li h5,
+.kangndopostcontent li h5 {
+   margin: 1px;
+}
+
+li h6,
+.kangndopostcontent li h6 {
+   margin: 1px;
+}
+
+li p,
+.kangndopostcontent li p {
+   margin: 1px;
+}
+
+.kangndosheet {
+   background: #f5f5f5;
+   -webkit-border-radius: 0px;
+   -moz-border-radius: 0px;
+   border-radius: 0px;
+   -webkit-box-shadow: 0 0 3px 2px rgba(0, 0, 0, 0.15);
+   -moz-box-shadow: 0 0 3px 2px rgba(0, 0, 0, 0.15);
+   box-shadow: 0 0 3px 2px rgba(0, 0, 0, 0.15);
+   border: 1px solid #f5f5f5;
+   margin: 8%;
+   position: relative;
+   height: 90%;
+   cursor: auto;
+   z-index: auto !important;
+}
+
+.kangndolayout-wrapper {
+   position: relative;
+   margin: 0 auto 0 auto;
+   z-index: auto !important;
+   height: 100%;
+   color: #212B36;
+   background: #f5f5f5;
+   background-image: url(img/back_repet.jpg);
+   padding-right: 10px;
+   padding-left: 10px;
+}
+
+.kangndocontent-layout {
+   display: table;
+   width: 100%;
+   height: 100%;
+   table-layout: fixed;
+   border-collapse: collapse;
+}
+
+.kangndocontent-layout-row {
+   display: table-row;
+   height: 100%;
+}
+
+.kangndolayout-cell {
+   height: 100%;
+   display: flex;
+   vertical-align: top;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+
+.kangndopost {
+   padding: 5px;
+   height: 100%;
+}
+
+a img {
+   border: 0;
+}
+
+.kangndoarticle img,
+img.kangndoarticle,
+.kangndoblock img,
+.kangndofooter img {
+   margin: 0 0 0 0;
+}
+
+.kangndometadata-icons img {
+   border: none;
+   vertical-align: middle;
+   margin: 2px;
+}
+
+.kangndoarticle table,
+table.kangndoarticle {
+   border-collapse: collapse;
+   margin: 1px;
+}
+
+.kangndopost .kangndocontent-layout-br {
+   height: 0;
+}
+
+.kangndoarticle th {
+   text-align: center;
+   vertical-align: middle;
+   padding: 7px;
+}
+
+pre {
+   overflow: auto;
+   padding: 0.1em;
+}
+
+.kangndopostcontent ul>li:before,
+.kangndopost ul>li:before {
+   content: url('images/postbullets.png');
+   margin-right: 10px;
+   bottom: 2px;
+   position: relative;
+   display: inline-block;
+   vertical-align: middle;
+   font-size: 0;
+   line-height: 0;
+}
+
+.opera .kangndopostcontent ul>li:before,
+.opera .kangndopost ul>li:before {
+   /* Vertical-align:middle in Opera doesn't need additional offset */
+   bottom: 0;
+}
+
+.kangndopostcontent li,
+.kangndopost li {
+   color: #303F50;
+   margin: 3px 0 0 11px;
+}
+
+.kangndopostcontent ul>li,
+.kangndopost ul>li,
+.kangndopostcontent ol,
+.kangndopost ol {
+   padding: 0;
+}
+
+.kangndopostcontent ul>li,
+.kangndopost ul>li {
+   padding-left: 17px;
+}
+
+.kangndopostcontent ul>li:before,
+.kangndopost ul>li:before {
+   margin-left: -17px;
+}
+
+.kangndopostcontent ol,
+.kangndopost ol,
+.kangndopostcontent ul,
+.kangndopost ul {
+   margin: 1em 0 1em 11px;
+}
+
+.kangndopostcontent li ol,
+.kangndopost li ol,
+.kangndopostcontent li ul,
+.kangndopost li ul {
+   margin: 0.5em 0 0.5em 11px;
+}
+
+.kangndopostcontent li,
+.kangndopost li {
+   margin: 3px 0 0 0;
+}
+
+.kangndopostcontent ol>li,
+.kangndopost ol>li {
+   /* overrides overflow for "ul li" and sets the default value */
+   overflow: visible;
+}
+
+.kangndopostcontent ul>li,
+.kangndopost ul>li {
+   /* makes "ul li" not to align behind the image if they are in the same line */
+   overflow-x: visible;
+   overflow-y: hidden;
+}
+
+img.kangndolightbox {
+   cursor: pointer;
+}
+
+#kangndolightbox-bg * {
+   padding: 0;
+   margin: 0;
+}
+
+div#kangndolightbox-bg {
+   top: 0;
+   left: 0;
+   width: 100%;
+   position: absolute;
+   height: 100%;
+   background-color: #000;
+   opacity: 0.8;
+   filter: alpha(opacity=80);
+   z-index: 9999;
+}
+
+img.kangndolightbox-image {
+   -webkit-transition: opacity 350ms ease-in-out;
+   -moz-transition: opacity 350ms ease-in-out;
+   -o-transition: opacity 350ms ease-in-out;
+   -ms-transition: opacity 350ms ease-in-out;
+   transition: opacity 350ms ease-in-out;
+   cursor: pointer;
+   z-index: 10000;
+   position: fixed;
+   border: 6px solid #fff;
+   border-radius: 3px;
+   opacity: 0;
+   filter: alpha(opacity=0);
+}
+
+img.kangndolightbox-image.active {
+   opacity: 1;
+   filter: alpha(opacity=100);
+}
+
+.lightbox-error {
+   position: fixed;
+   background: #fff;
+   z-index: 100;
+   opacity: 0.95;
+   padding: 20px;
+   border: 1px solid #b4b4b4;
+   border-radius: 10px;
+   box-shadow: 0 2px 5px #333;
+   width: 300px;
+   height: 80px;
+}
+
+.kangndocontent-layout .kangndocontent {
+   margin: 0 auto;
+}
+
+.kangndopostcontent.kangndopostcontent-0 {
+   height: 100% !important;
+}
+
+.btn-group {
+   position: relative;
+   display: flex;
+   vertical-align: middle;
+   margin: 20px 0;
+   align-items: center;
+   flex-direction: column;
+}
+.btn-group.old {
+   margin: 10px 0;
+}
+
+.btn-group .download-button {
+   display: flex;
+   align-items: center;
+   justify-content: flex-start;
+   margin-bottom: 0;
+   font-weight: normal;
+   text-align: center;
+   vertical-align: middle;
+   touch-action: manipulation;
+   cursor: pointer;
+   position: relative;
+   float: left;
+   font-size: 22px;
+   padding: 6px 14px;
+   line-height: 32px;
+   border: 1px solid #1e7bba;
+   color: white !important;
+   line-height: unset !important;
+   margin: 0;
+   border-radius: 4px;
+   background-color: #1e7bba;
+   background-image: -webkit-linear-gradient(top, #1e9bba 0, #1e7bba 100%);
+   background-image: -moz-linear-gradient(top, #1e9bba 0, #1e7bba 100%);
+   background-image: -ms-linear-gradient(top, #1e9bba 0, #1e7bba 100%);
+   background-image: -o-linear-gradient(top, #1e9bba 0, #1e7bba 100%);
+   background-image: linear-gradient(top, #1e9bba 0, #1e7bba 100%);
+   /*filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$base, endColorstr=$medium, GradientType=0);
+   filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);*/
+   background-repeat: repeat-x;
+}
+.btn-group .download-button:hover,
+.btn-group .download-button:focus {
+   background-color: #2084c8;
+   background-position: 0 -20px;
+   text-decoration: unset;
+   color: #ffffff;
+}
+
+.btn-group .download-button.or, 
+.btn-group .download-button.old.or {
+   border: none;
+   background-color: transparent;
+   background-image: -webkit-linear-gradient(top, #1e7bba00 0, #1e7bba00 0%);
+   padding: 10px;
+}
+.btn-group .download-button.or:hover,
+.btn-group .download-button.or:focus,
+.btn-group .download-button.old.or:hover,
+.btn-group .download-button.old.or:focus {
+   background-color: #ba1e1e00;
+}
+
+.btn-group .download-button.old {
+   padding: 6px 12px;
+   border: 1px solid #1e7bba;
+   background-color: #1e7bba;
+   background-image: -webkit-linear-gradient(top, #ba841e 0, #ba1e1e 100%);
+   background-image: -moz-linear-gradient(top, #9aba1e 0, #ba1e74 100%);
+   background-image: -ms-linear-gradient(top, #9aba1e 0, #ba1e74 100%);
+   background-image: -o-linear-gradient(top, #9aba1e 0, #ba1e74 100%);
+   background-image: linear-gradient(top, #9aba1e 0, #ba1e74 100%);
+}
+.btn-group .download-button.old:hover,
+.btn-group .download-button.old:focus {
+   background-color: #ba1e1e;
+}
+
+.btn-group .download-button .download-text {
+   font-size: 24px;
+   padding-bottom: 0;
+   font-family: "Raleway";
+   text-shadow: 2px 1px 1px #1e7bba;
+   line-height: 30px;
+   letter-spacing: .03em;
+   display: block;
+   text-align: center;
+   white-space: nowrap;
+   color: white;
+}
+
+.btn-group .download-button.or .download-text.or,
+.btn-group .download-button.old.or .download-text.old.or {
+   text-shadow: 0 0 black;
+   color: #1e7bba;
+   font-size: 22px;
+}
+
+.btn-group .download-button.old .download-text {
+   line-height: 18px;
+   font-size: 20px
+}
+
+.btn-group .download-button.old.or .download-text.old.or {
+   font-size: 18px;
+   line-height: 20px;
+}
+
+.btn-group .download-button .caret {
+   border-width: 5px 5px 0;
+   border-bottom-width: 0;
+   margin-left: 0;
+   border-top: 4px solid;
+   display: inline-block;
+   width: 0;
+   height: 0;
+   vertical-align: middle;
+   border-right: 4px solid transparent;
+   border-left: 4px solid transparent;
+}
+
+.btn-group .download-button .divider {
+   width: 2px;
+   height: 32px;
+   margin: 0 8px;
+   overflow: hidden;
+   background-color: #7cb9e3;
+}
+
+.download-details {
+   display: flex;
+   align-items: center;
+   text-align: center;
+   color: #777;
+   font-size: 13.5px;
+   font-family: "Raleway";
+   margin-top: 1em;
+}
+
+.download-details.down-btn {
+   color:white;
+   font-size: 12px;
+   line-height:8px;
+   margin-top: 4px;
+}
+
+.download-details.down-btn.old {
+   font-size: 10.5px;
+   margin-top: 6px;
+}
+
+.platform-icons {
+   padding-top: 10px;
+}
+
+.download-old-archs, .auto-login-note {
+   margin-top: 12%;
+   padding: 0 12px;
+   text-align: center;
+   color: #575757;
+   font-size: 13.5px;
+   font-weight: bold;
+   font-family: "Raleway";
+   line-height: 1.45;
+}
+.auto-login-note {
+   margin-top: 2%;
+}
+
+
+
+@media screen and (min-width: 600px) {
+	.kangndosheet {
+      width: 361px;
+      position: fixed;
+      height: 94%;
+	}
+}
+
+@media screen and (min-width: 441px) {
+   .btn-group {
+      align-items: unset;
+      flex-direction: unset;
+   }
+   .btn-group .download-button {
+      padding: 10px 14px;
+   }
+   .btn-group .download-button.or, 
+   .btn-group .download-button.old.or {
+      padding: 16px 10px;
+   }
+   .btn-group .download-button .download-text {
+      font-size: 28px;
+   }
+   .btn-group .download-button.old .download-text {
+      line-height: 20px;
+      font-size: 22px
+   }
+}
